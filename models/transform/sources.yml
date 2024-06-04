@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+
+  - name: uwinnipeg
+    description: "Class test data"
+    database: QI_WANG_DAM
+    schema: CLASS_TEST
+    tables:
+      - name: CUSTOMERS
+        description: "this is the customer table info"
+      - name: ORDERS
+        description: "this is orders table info"
+      - name: PRODUCTS
+        description: "this is a product table info"
